@@ -4,5 +4,6 @@ $.getJSON(url, function (response) {
     let html = `User ID: ${response.userId} <hr>
                 User Name: ${response.userName} <hr>
                 User Url: ${response.userURL}`;
+    
     document.getElementById('output').innerHTML = html;
 })
